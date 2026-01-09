@@ -45,4 +45,4 @@ Automated workflows run on every push and pull request:
 
 ## Access the website
 
-- [https://mte-capstone-group-28.github.io/](https://mte-capstone-group-28.github.io/)
+- [https://kolibri-drone.github.io/](https://kolibri-drone.github.io/)
