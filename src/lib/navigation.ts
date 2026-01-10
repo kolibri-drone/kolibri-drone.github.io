@@ -31,4 +31,8 @@ export const navigationItems = [
     title: 'Week 7 - 11/10/2025',
     url: '/week7',
   },
+  {
+    title: 'Week 8 - 01/12/2026',
+    url: '/week8',
+  },
 ]
