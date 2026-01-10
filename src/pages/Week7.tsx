@@ -9,19 +9,21 @@ export function Week7() {
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4 text-left">Meetings</h2>
         <hr className="border-gray-300 mb-4 w-full" />
-        <ul className="list-disc list-inside"></ul>
-        <li className="text-gray-700 mb-2 text-left">
-          Meeting with team and advisors: 11/10/2025
-        </li>
+        <ul className="list-disc list-inside">
+          <li className="text-gray-700 mb-2 text-left">
+            Meeting with team and advisors: 11/10/2025
+          </li>
+        </ul>
       </section>
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4 text-left">General</h2>
         <hr className="border-gray-300 mb-4 w-full" />
-        <ul className="list-disc list-inside"></ul>
-        <li className="text-gray-700 mb-2 text-left">
-          Ordered drone parts: Dimitri - 11/05/2025
-        </li>
+        <ul className="list-disc list-inside">
+          <li className="text-gray-700 mb-2 text-left">
+            Ordered drone parts: Dimitri - 11/05/2025
+          </li>
+        </ul>
       </section>
 
       <section className="mb-8">
