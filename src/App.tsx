@@ -1,9 +1,4 @@
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Navigate,
-} from 'react-router-dom'
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 import { SidebarProvider, SidebarTrigger } from '@/components/ui/sidebar'
 import { AppSidebar } from '@/components/app-sidebar'
 import { Week1 } from '@/pages/Week1'
@@ -13,6 +8,7 @@ import { Week4 } from '@/pages/Week4'
 import { Week5 } from '@/pages/Week5'
 import { Week6 } from '@/pages/Week6'
 import { Week7 } from '@/pages/Week7'
+import { Week8 } from '@/pages/Week8'
 import { Home } from '@/pages/Home'
 import './App.css'
 
@@ -33,6 +29,7 @@ function App() {
             <Route path="/week5" element={<Week5 />} />
             <Route path="/week6" element={<Week6 />} />
             <Route path="/week7" element={<Week7 />} />
+            <Route path="/week8" element={<Week8 />} />
           </Routes>
         </main>
       </SidebarProvider>

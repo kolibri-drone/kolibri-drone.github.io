@@ -1,0 +1,78 @@
+export function Week8() {
+  return (
+    <div className="p-6">
+      <h1 className="text-3xl font-bold mb-4 text-left">Week 8</h1>
+      <p className="text-lg text-gray-600 text-left mb-8">
+        Here's our progress for week 8!
+      </p>
+
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-4 text-left">Meetings</h2>
+        <hr className="border-gray-300 mb-4 w-full" />
+        <ul className="list-disc list-inside">
+          <li className="text-gray-700 mb-2 text-left">
+            Meeting with team and advisors: 01/13/2026
+          </li>
+        </ul>
+      </section>
+
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-4 text-left">General</h2>
+        <hr className="border-gray-300 mb-4 w-full" />
+        <ul className="list-disc list-inside">
+          <li className="text-gray-700 mb-2 text-left">
+            Received all drone parts: Dimitri - 01/10/2026
+          </li>
+        </ul>
+      </section>
+
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-4 text-left">Mechanical</h2>
+        <hr className="border-gray-300 mb-4 w-full" />
+        <ul className="list-disc list-inside">
+          <li className="text-gray-700 mb-2 text-left">
+            Finished working on CAD model of the drone: Sehaj + Dimitri -
+            11/19/2025
+          </li>
+        </ul>
+      </section>
+
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-4 text-left">Electrical</h2>
+        <hr className="border-gray-300 mb-4 w-full" />
+        <ul className="list-disc list-inside">
+          <li className="text-gray-700 mb-2 text-left">
+            Finished wiring diagram of the drone: Yang - 11/20/2025
+          </li>
+        </ul>
+      </section>
+
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-4 text-left">Controls</h2>
+        <hr className="border-gray-300 mb-4 w-full" />
+        <ul className="list-disc list-inside">
+          <li className="text-gray-700 mb-2 text-left">
+            Finished modelling control system block diagram: Yang - 11/21/2025
+          </li>
+        </ul>
+      </section>
+
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-4 text-left">Software</h2>
+        <hr className="border-gray-300 mb-4 w-full" />
+        <ul className="list-disc list-inside">
+          <li className="text-gray-700 mb-2 text-left">
+            Researched camera module integration and outlined system
+            architecture for relaying live video feed: James - 11/22/2025
+          </li>
+          <li className="text-gray-700 mb-2 text-left">
+            Wireframed website layout and designed logo: James - 01/09/2026
+          </li>
+          <li className="text-gray-700 mb-2 text-left">
+            Finished implemented website design: Patrick - 01/10/2026
+          </li>
+        </ul>
+      </section>
+    </div>
+  )
+}
